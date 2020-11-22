@@ -2,6 +2,7 @@ import React from "react";
 import { upvoteQuote } from "../actions/quotes";
 
 const QuoteCard = (props) => (
+  //const QuoteCard = ({ quote, removeQuote, upvoteQuote, downvoteQuote }) => (
   <div>
     <div className="card card-inverse card-success card-primary mb-3 text-center">
       <div className="card-block">
