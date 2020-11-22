@@ -1,3 +1,16 @@
 export default (state = [], action) => {
-  return state;
-}
+  switch (action.type) {
+    case "ADD_QUOTE":
+      return {
+        /*quote: state.quotes.concat(action.payload.XXXXXX)*/
+      };
+    case "REMOVE_QUOTE":
+      return {};
+    case "UPVOTE_QUOTE":
+      return {};
+    case "DOWNVOTE_QUOTE":
+      return {};
+    default:
+      return state;
+  }
+};
