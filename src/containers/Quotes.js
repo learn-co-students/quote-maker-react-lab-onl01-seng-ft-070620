@@ -12,7 +12,7 @@ class Quotes extends Component {
 
   render() {
     const { quotes, removeQuote, upvoteQuote, downvoteQuote } = this.props;
-    debugger;
+    // debugger;
     return (
       <div>
         <hr />
